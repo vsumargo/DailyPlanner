@@ -37,17 +37,17 @@ In this project, student create a Daily Planner with several criteria:
 #### Screenshots
 The following image shows the three pages appearance:
 
-1. Calendar
+1. Calendar & Daily Planner full page
 
-![screenshot of Calendar](Assets/Images/landing-page.png)
+![screenshot of Calendar](Images/full-page-calendar-and-daily-planner.png)
 
-2. Daily Planner time blocks
+2. Daily Planner time blocks showing current time block
 
-![screenshot of Daily Planner time blocks](Assets/Images/questions-page.png)
+![screenshot of Daily Planner time blocks](Images/time-block-and-current-time.png)
 
 3. Modal Pop-up page
 
-![screenshot of Modal Pop Up](Assets/Images/end-page.png)
+![screenshot of Modal Pop Up](Images/modal-pop-up.png)
 
 #### Links
 The following links will take you to the source code in github repository and the deployed live page:
