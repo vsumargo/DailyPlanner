@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Calendar & Daily Planner</title>
+</head>
+
+<body>
+
+  <div class="containerCalendar">
+    <!-- Calendar  -->
+    <div class="calendar">
+      <div class="nav">
+        <i class="fas fa-chevron-circle-left" id="previousBtn"></i>
+        <div class="header">
+          <h1 class="month"></h1>
+          <h2 class="currentDate"></h2>
+        </div>
+        <i class="fas fa-chevron-circle-right" id="nextBtn"></i>
+      </div>
+
+      <div class="week">
+        <div class="day">Sunday</div>
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thursday</div>
+        <div class="day">Friday</div>
+        <div class="day">Saturday</div>
+      </div>
+    <!-- Calendar  -->
+
+<!-- Daily Planner Time Block HTML -->
+      <div class="calendarDate">
+      </div>
+    </div>
+    <div class="containerDayScheduler">
+      <div class="dayScheduler">
+        <h2 class="currentDate">Saturday, December 5, 2020</h2>
+      </div>
+    </div>
+    <!-- Daily Planner Time Block HTML -->
+
+
+    <!-- HTML for Modal Pop Up Box -->
+    <div class="modalEvent" id="modalEvent">
+      <div class="modalContent">
+        <span id="closeBtn">&times;</span>
+        <h3 class="selected-date-and-time">Monday, December 7th 2020</h3>
+        <form class="input-form">
+          <div class="event-type">
+            <label for="event-type-list">Type:</label>
+            <select name="event-type" id="event-type-list">
+              <option value="event" id="eventOption">Event</option>
+              <option value="reminder" id="reminderOption">Reminder</option>
+          </select>
+          </div>
+          <input class=" add-title" type="text" placeholder="Add Title">
+                <input class="add-notes" type="text" placeholder="Add Notes">
+        </form>
+        <button id="save-event-button">Save</button>
+      </div>
+    </div>
+    <!-- HTML for Modal Pop Up Box -->
+  </div>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
