@@ -52,9 +52,9 @@ The following image shows the three pages appearance:
 #### Links
 The following links will take you to the source code in github repository and the deployed live page:
 
-* [Daily Planner](https://vsumargo.github.io/Golf-Quiz/)
+* [Daily Planner](https://vsumargo.github.io/DailyPlanner/)
 
-* [Daily Planner GitHub Source Code](https://github.com/vsumargo/Golf-Quiz)
+* [Daily Planner GitHub Source Code](https://github.com/vsumargo/DailyPlanner)
 
 ## Acknowledgements
 
